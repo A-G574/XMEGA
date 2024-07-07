@@ -1,0 +1,272 @@
+body {
+  overflow-y: auto;
+  height: auto;
+  margin: 0;
+  background: #000000;
+}
+
+.area {
+  min-height: 100vh;
+  padding-bottom: 50px;
+}
+
+.main_base {
+  border-radius: 12px;
+  width: 85%;
+  height: auto;
+  margin-top: 1%;
+  margin-left: 8%;
+}
+
+.glass {
+  background: rgba(49, 52, 51, 0.608);
+  box-shadow: 0 2px 10px 2px rgba(79, 79, 82, 0.37);
+  backdrop-filter: blur(4px);
+  -webkit-backdrop-filter: blur(2px);
+  border-radius: 10px;
+  border: 1px solid rgba(88, 83, 83, 0.18);
+}
+
+#Intro {
+  display: flex;
+  margin-top: 2%;
+  padding-left: 1%;
+  padding-right: 1%;
+  height: auto;
+}
+.Introduction {
+  background: #101010;
+  height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  border-radius: 12px;
+  width: 60%;
+  padding-top: 5.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  color: #808080;
+  height: 200px;
+}
+.image {
+  margin-left: 5.8%;
+  background: #101010;
+  height: 260px;
+  width: 18vw;
+  border-radius: 100%;
+  animation: pulse 5s infinite;
+}
+img {
+  height: 90%;
+  padding-left: 15%;
+  padding-top: 5%;
+}
+.typewriter {
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: 0.1em;
+  animation: typing 3.5s steps(30, end), blink-caret 0.5s step-end infinite;
+}
+
+.block_base {
+  margin-top: 1%;
+  background: #101010;
+  height: auto;
+  width: 98%;
+  border-radius: 12px;
+  margin-left: 1%;
+  margin-right: 1%;
+  padding-bottom: 1%;
+}
+.types {
+  margin-top: 2%;
+  display: flex;
+  padding-left: 3%;
+}
+.row1,
+.row2,
+.row3 {
+  padding-top: 8%;
+  display: flex;
+  color: #808080;
+  column-gap: 50%;
+  padding-left: 20%;
+}
+.row4 {
+  color: #808080;
+  padding-left: 20%;
+  padding-bottom: 5%;
+  padding-top: 8%;
+  display: flex;
+  column-gap: 20%;
+}
+.row3 {
+  column-gap: 35%;
+}
+.row2 {
+  column-gap: 39%;
+}
+.head_name {
+  color: #808080;
+  padding-left: 35%;
+  padding-top: 8%;
+  font-size: 20px;
+}
+.head_names {
+  color: #808080;
+  padding-left: 41%;
+  padding-top: 8%;
+  font-size: 20px;
+}
+.Name {
+  color: #808080;
+  font-size: 22px;
+  padding-left: 48%;
+  padding-top: 1%;
+  font-style: bold;
+}
+.sec_bg {
+  width: 300px;
+  background: #000;
+  border-radius: 12px;
+  margin-left: 5%;
+  margin-right: 2%;
+  margin-bottom: 1%;
+}
+.row {
+  padding-top: 8%;
+  display: flex;
+  color: #808080;
+  column-gap: 50%;
+  padding-left: 42%;
+}
+.others {
+  padding-left: 40%;
+}
+.po_bg {
+  background: #000;
+  border-radius: 12px;
+  color: #808080;
+  margin-top: 2%;
+  margin-left: 1%;
+  margin-right: 1%;
+  margin-bottom: 1%;
+}
+.pad {
+  padding-bottom: 5%;
+}
+.po_name {
+  padding-top: 1.5%;
+  font-style: bold;
+  font-size: 18px;
+  padding-left: 1%;
+  padding-bottom: 1%;
+}
+.po_des {
+  padding-bottom: 1%;
+  padding-left: 1%;
+}
+
+.mobile {
+  display: none;
+}
+a {
+  text-decoration: none;
+  color: #808080;
+}
+.add {
+  padding-left: 45%;
+}
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+@keyframes pulse {
+  0% {
+    background-color: #101010;
+    transition: 0.2s;
+  }
+  100% {
+    background-color: #404040;
+    transition: 0.2s;
+  }
+}
+@media (max-width: 600px) {
+  #Intro {
+    display: block;
+  }
+  .Introduction {
+    width: 100%;
+    padding-top: 1%;
+    padding-left: 0%;
+    padding-right: 0%;
+    height: auto;
+  }
+  .typewriter {
+    display: none;
+  }
+  .image {
+    margin-top: 4%;
+    width: 100%;
+    height: 50%;
+    margin-left: 0.1%;
+  }
+  .main_base {
+    margin-left: 4%;
+    width: 92%;
+  }
+  .mobile {
+    display: flex;
+    padding-left: 4%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+  }
+  img {
+    padding-left: 13%;
+  }
+  .types {
+    display: block;
+  }
+  .Name {
+    padding-left: 41%;
+  }
+  .head_name {
+    padding-left: 36%;
+  }
+  .po_bg {
+    padding-left: 4%;
+  }
+  .main_base {
+    margin-top: 2%;
+    margin-bottom: 2%;
+  }
+  .head_names {
+    padding-left: 40%;
+  }
+  .others {
+    padding-left: 41%;
+  }
+  .rows {
+    padding-top: 8%;
+    display: flex;
+    color: #808080;
+    column-gap: 8%;
+    padding-left: 1%;
+  }
+  .mm {
+    display: flex;
+    padding-left: 23%;
+    column-gap: 23%;
+    padding-bottom: 5%;
+  }
+  .add {
+    padding-left: 31%;
+  }
+  .oo {
+    column-gap: 30%;
+  }
+}
