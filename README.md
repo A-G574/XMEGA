@@ -1,8 +1,4 @@
 # XMEGA
-Certainly! Here's a sample content for your GitHub README file:
-
----
-
 # Portfolio Project: HTML and CSS
 
 ## Introduction
