@@ -8,7 +8,7 @@ This repository contains the portfolio project I created as part of an internshi
 - **Objective:** Develop a responsive portfolio website using HTML and CSS.
 - **Features:**
   - Home page showcasing personal information and a brief introduction.
-  - Contact section with social media platform and contains mobile no. and email ID.
+  - Contact section with social media platform and contains email ID.
   - CSS styling for responsive design across different devices.
 - **References:** I used inspiration and design cues from various professional websites to enhance the aesthetics and functionality of the portfolio.
 
